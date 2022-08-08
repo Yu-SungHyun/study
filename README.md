@@ -81,22 +81,29 @@
 
 `$ yarn add react-router-dom`
 
+#### 리덕스
+`$ yarn add redux`
+
 ---
 <br/>
 <br/>
 
 ## 개발 도구
 
+### [유용한 개발 도구 모음](https://inpa.tistory.com/entry/VS-Code-%E2%8F%B1%EF%B8%8F-%EC%BD%94%EB%94%A9%EC%97%90-%EC%9C%A0%EC%9A%A9%ED%95%9C-%EB%8F%84%EA%B5%AC-%EC%B6%94%EC%B2%9C)
+
 #### 1. Prettier
 
 - 자동으로 코드에 필요한 값들을 넣어주는 도구이다. , 또는 들여쓰기 등등 무심코 지나갈 수 있는 것들을 추가해준다.
   가장 상위의 디렉터리에 '.prettierrc' 파일을 추가해준다.
+  
+**.prettierrc**
   ```
-    .prettierrc{
-    "trailingComma": "es5",
-    "tabWidth": 4,
-    "semi": true,
-    "singleQuote": true
+    {
+          "trailingComma": "es5",
+          "tabWidth": 4,
+          "semi": true,
+          "singleQuote": true
     }
   ```  
 
